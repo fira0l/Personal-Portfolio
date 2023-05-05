@@ -1,0 +1,77 @@
+body {
+  /* text-align: center; */
+  background-color: rgb(194, 193, 193);
+  /* background-image: url(/Images/kb.jpg); */
+  margin: 0;
+  padding: 0;
+}
+header {
+  /* background-color: aquamarine; */
+  width: 100%;
+  margin: -20px 0;
+  font-family: "Bruno Ace SC", sans-serif;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+}
+
+header ul {
+  list-style: none;
+  /* border: 2px solid rgb(44, 44, 43); */
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin: auto 10px;
+}
+
+header ul a {
+  padding: 0 10px;
+  margin: 5px 5px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid rgb(44, 44, 43);
+  border-radius: 5px;
+  background-color: rgb(230, 226, 43);
+  box-shadow: 2px 2px 2px rgba(7, 7, 8, 0.8);
+}
+
+header a:hover {
+  background-color: rgb(241, 239, 90);
+}
+
+#logo {
+  font-family: "Oleo script", sans-serif;
+  text-transform: uppercase;
+  color: rgb(226, 224, 81);
+  font-weight: 700;
+  font-size: 34px;
+  text-shadow: 2px 2px 2px rgba(7, 7, 8, 0.8);
+  /* font-style: italic; */
+  /* border: 2px solid rgb(44, 44, 43); */
+  padding: 0 10px;
+  border-radius: 8px;
+  /* box-shadow: 2px 2px 2px rgba(7, 7, 8, 0.8); */
+}
+#alogo {
+  color: rgb(241, 239, 90);
+  text-decoration: none;
+}
+
+#alogo:hover {
+  color: rgb(230, 226, 43);
+  background-color: transparent;
+}
+
+#link {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#link img {
+  width: 60px;
+  height: 45px;
+  margin-top: 20px;
+}

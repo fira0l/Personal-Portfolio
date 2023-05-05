@@ -1,0 +1,109 @@
+    <!-- <main>
+      <section class="profile">
+        <div id="Profile">
+          <img src="/Images/mypic.jpg" alt="My Profile picture" />
+        </div>
+        <div id="Hprofile">
+          <h2>Personal Information</h2>
+          <ul>
+            <li><span class="tag">Full Name</span>: Firaol Anbessa</li>
+            <li><span class="tag">Sex</span>: Male</li>
+            <li><span class="tag">Date of Birth</span>: 21/10/2001 E.C</li>
+            <li><span class="tag">Acedaic Status</span>: Student</li>
+            <li><span class="tag">Institution</span>: Jimma University</li>
+            <li><span class="tag">Department</span>: Software Engineering</li>
+            <li>
+              <span class="tag">Acedamic Year</span>: Third(3<sup>rd</sup>)
+            </li>
+            <li><span class="tag">Marital Status</span>: Single</li>
+          </ul>
+        </div>
+      </section>
+      <div class="profile">
+        <h2>Address</h2>
+      </div>
+      <div class="profile">
+        <h2>Experiance</h2>
+      </div>
+    </main> -->
+
+
+CSS
+
+
+main {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 25px;
+  height: 600px;
+}
+
+.profile {
+  width: 300px;
+  height: 500px;
+  align-items: center;
+  /* border: 2px solid rgb(44, 44, 43); */
+}
+
+.profile h2 {
+  text-align: center;
+  font-family: "Oleo script", sans-serif;
+}
+
+.tag {
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "oleo script", sans-serif;
+}
+
+section img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+main ul {
+  list-style: none;
+}
+
+#Hprofile li {
+  font-family: "Quicksand";
+  font-weight: 600;
+}
+
+
+
+html container
+
+  <section id="bottom" class="container">
+        <h2>Programming Languages Learned</h2>
+        <div id="contain">
+          <div class="logo">
+            <img src="/Images/icon/Java-Logo.png" alt="Java" />
+            <p>Java</p>
+          </div>
+          <div class="logo">
+            <img src="/Images/icon/html.jpg" alt="HTML" />
+            <p>HTML</p>
+          </div>
+          <div class="logo">
+            <img src="/Images/icon/CSS-Logo.png" alt="CSS" />
+            <p>CSS</p>
+          </div>
+          <div class="logo">
+            <img src="/Images/icon/cpp-programming-logo.jpg" alt=" C++" />
+            <p>C++</p>
+          </div>
+          <div class="logo">
+            <img src="/Images/icon/jslogo.png" alt="JavaScript" />
+            <p>JavaScript</p>
+          </div>
+          <div class="logo">
+            <img src="/Images/icon/phplogo.jpg" alt="PHP" />
+            <p>PHP</p>
+          </div>
+        </div>
+        <div>
+          <h2>Experiance</h2>
+        </div>
+      </section>

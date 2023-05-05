@@ -1,0 +1,45 @@
+main {
+  padding-top: 50px;
+  background-image: url();
+}
+
+.container {
+  width: 60%;
+  margin: 10px auto;
+  background-color: rgba(51, 50, 50, 0.6);
+  padding: 10px 30px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px rgba(51, 50, 50, 0.6);
+  font-family: "Quicksand", sans-serif;
+  color: rgb(206, 200, 200);
+}
+
+table {
+  margin: 0 auto;
+  padding: 5px 10px;
+  text-align: center;
+  border: 2px solid rgb(206, 200, 200);
+}
+
+th,
+td {
+  border: 2px solid rgb(206, 200, 200);
+}
+
+th {
+  color: rgb(173, 169, 169);
+  font-weight: 900;
+}
+
+#table {
+  margin-top: 15px;
+}
+
+#exam {
+  margin-top: 20px;
+}
+
+main {
+  background-image: url(/Images/kb.jpg);
+  background-size: cover;
+}
