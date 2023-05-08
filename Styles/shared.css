@@ -41,6 +41,17 @@ header a:hover {
   background-color: rgb(241, 239, 90);
 }
 
+main {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url(/Images/kb.jpg);
+  justify-content: space-between;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 #logo {
   font-family: "Oleo script", sans-serif;
   text-transform: uppercase;
